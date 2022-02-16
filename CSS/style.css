@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Poppins',sans-serif;
+
+}
+body{
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.contenedor{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 100px;
+    background: #fff;
+    margin: 50px;
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+.contenedor .lado_Izquierdo{
+    position: relative;
+    background: #003147;
+    padding: 40px;
+}
+.contenedor .lado_Derecho{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+.perfilTexto{
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255,0.2);
+     
+}
+.perfilTexto .imgCja{
+position: relative;
+width: 200px;
+height: 200px;
+border-radius: 50%;
+overflow: hidden;
+}
+.perfilTexto .imgCja img{
+   position: absolute;
+   top:0;
+   left:0;
+   width:100%;
+   height:100%;
+   object-fit:cover;
+}
+.perfilTexto h2{
+    color: #fff;
+    font-size:1.5 em;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+.about {
+margin-bottom:50px;
+
+}
+.about:last-child{
+margin-bottom: 0;
+
+}
+.title2{
+    color:#003147;
+    text-transform: 1px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+
+}
+    
+.p{
+    color:#333;
+    
+}
+.contact_Info{
+padding-top:40px ;
+}
+.title{
+    color:#fff;
+text-transform: uppercase;
+font-weight: 600;
+letter-spacing: 1px;
+margin-bottom: 20px;
+}
+.contact_Info ul{
+    position: relative;
+}
+.contact_Info ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.contact_Info ul li icon{
+    display: inline-block;
+    width: 30 px;
+    font-size: 18px;
+    color:#03a9f3;
+
+}
+.contact_Info ul li span{
+    color: #fff;
+}
+
+
+
